@@ -95,7 +95,7 @@ body {
 /* Конкретный слайдер */
 .slider{
 	position: relative;
-	padding: 0;
+	margin: 80px 0px 0px 0px;
 }
 .slider .slick-arrow{
 	position: absolute;
@@ -150,6 +150,13 @@ body {
 
 .slider__item{}
 
+
+@media (max-width: 767px)
+{
+	.slider{
+		margin-top:50px;
+	}
+}
 
 
 
