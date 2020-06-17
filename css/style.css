@@ -396,3 +396,39 @@ body {
 	}
 }
 
+/* Секция Promo*/
+
+.promo__content {
+	padding-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.promo__content__item{
+	background-color: #ddd;
+	max-width: 360px;
+	width: 360px;
+	height: 400px;
+	margin: 20px 20px;
+}
+
+@media (max-width: 767px){
+
+.promo__content {
+	padding-top: 60px;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.promo__content__item{
+	background-color: #ddd;
+	max-width: 96%;
+	min-width: 96%;
+	width: 460px;
+	height: 400px;
+	margin: 20px 20px;
+}
+	
+
+}
