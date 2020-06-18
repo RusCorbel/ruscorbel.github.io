@@ -416,6 +416,20 @@ body {
 @media (max-width: 767px){
 
 .promo__content {
+	
+	display: grid;
+	grid-auto-columns: 1fr 1fr;
+}
+
+.promo__content__item{
+	background-color: #ddd;
+	
+	
+	
+}
+
+/* Тест*
+.promo__content {
 	padding-top: 60px;
 	flex-flow: column;
 	justify-content: center;
@@ -423,12 +437,12 @@ body {
 
 .promo__content__item{
 	background-color: #ddd;
-	max-width: 96%;
+	max-width: 94%;
 	min-width: 96%;
 	width: 460px;
 	height: 400px;
 	margin: 20px 20px;
 }
-	
+	*/
 
 }
