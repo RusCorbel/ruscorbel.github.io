@@ -194,6 +194,14 @@ body {
 		padding: 15px;
 	}
 
+	.featured__content__item img:hover{
+		opacity: 0.8;
+		transition: all 0.8s ease;
+		
+	}
+
+
+
 	@media (max-width: 767px){
 
 	.featured__content {
