@@ -164,7 +164,7 @@ body {
 	.featured__price{
 		text-align: center;padding: 10px;
 		margin-bottom:20px;
-		font-size: 18px;
+		font-size: 22px;
 		color: #fd3c3d;
 	}
 
@@ -710,6 +710,13 @@ position: relative;
 	height: 240px;
 	margin: 20px 20px;
 	}
+}
+
+.price__old{
+	color: #000;
+	font-size: 14px;
+	text-decoration: line-through;
+	margin-left: 8px;
 }
 
 
