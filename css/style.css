@@ -207,7 +207,7 @@ body {
 
 	.featured__content {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     
@@ -223,7 +223,7 @@ body {
 
 	.product__content {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-top: 10px solid #fd3c3d;
