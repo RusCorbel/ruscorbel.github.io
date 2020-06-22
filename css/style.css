@@ -176,9 +176,7 @@ body {
 	.featured__content {
 		margin-top: 60px;
 		margin-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding: 0px;
     background-color: #ffffff;
     transition-duration: 0.4s;
     display: flex;
@@ -230,12 +228,14 @@ body {
     justify-content: center;
     align-items: center;
     border-top: 10px solid #fd3c3d;
+    padding-right: 0px;
+    padding-left: 0px;
     
 	}
 
 	.product__content__item{
-		padding: 15px;
-		min-width: 170px !important;
+		padding: 0px;
+		min-width: 160px !important;
 	}
 }
 
@@ -704,6 +704,10 @@ position: relative;
 
 
 @media (max-width: 767px){
+
+	.button span{
+		font-size: 12px;
+	}
 	.bpost__content {
 	flex-flow: column;
 	justify-content: center;
