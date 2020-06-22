@@ -145,7 +145,6 @@ body {
     max-width: 100%;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fd3c3d;
     border-top: 10px solid #fd3c3d;
     
 	}
@@ -178,7 +177,7 @@ body {
 		margin-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    
+    padding-top: 15px;
     background-color: #ffffff;
     transition-duration: 0.4s;
     display: flex;
@@ -227,7 +226,6 @@ body {
 	flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fd3c3d;
     border-top: 10px solid #fd3c3d;
     
 	}
@@ -720,6 +718,117 @@ position: relative;
 	text-decoration: line-through;
 	margin-left: 8px;
 }
+
+
+.sale__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sale__button span{
+	text-transform: uppercase;
+	background-color: #832dbf;
+	color: #fff;
+	padding: 5px 7px;
+	position: absolute;
+	z-index: 2;
+}
+
+
+.info__content {
+	margin-top: 30px;
+    margin-bottom: 30px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    transition-duration: 0.4s;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info__item{
+	flex: 0 0 33%;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin: 0px 20px;
+    border-top: 10px solid #fd3c3d;
+    background-image: url(../img/mt-1142_home_img04.jpg);
+    background-size: cover;
+    background-position: top;
+    transition-duration: 0.4s;
+
+}
+
+.info__item h3 {
+	color:#fff;
+	padding: 15px 100px 15px 0px;
+}
+
+.info__item ul li{
+	 list-style-type: disc !important;
+	 color: #fff;
+	 padding-bottom: 15px;
+}
+.info__item a{
+	color: #fff !important;
+
+}
+
+@media (max-width: 767px){
+	.info__content {
+	flex-flow: column;
+	justify-content: center;
+}
+
+.info__item{
+	width: 100%;
+	height: 240px;
+	margin: 10px 0px;
+	}
+}
+
+.insta {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #fd3c3d;
+}
+
+.insta hr {
+		border-top-width: 6px;
+    border-top-style: solid;
+    border-top-color: #fff;
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+   
+	}
+
+.insta h3{
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+
+.insta__content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+		margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
 
 
 
