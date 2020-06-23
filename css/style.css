@@ -176,7 +176,7 @@ body {
 	.featured__content {
 		margin-top: 60px;
 		margin-bottom: 30px;
-    padding: 0px;
+    padding: 15px 0px 0px 0px;
     background-color: #ffffff;
     transition-duration: 0.4s;
     display: flex;
@@ -604,16 +604,18 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 0 15px;
 }
 
 .promo__content__item{
 	background-color: gray;
-	max-width: 360px;
+	
 	width: 100%;
 	height: 400px;
 	margin: 0px 20px;
 	padding: 20px;
-	border: 10px solid #000;
+	border: 10px solid ;
+	border-color: transparent;
 }
 
 .promo__content__item:hover{
