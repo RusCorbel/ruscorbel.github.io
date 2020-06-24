@@ -13,7 +13,17 @@
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: red;
+}
+
 nav,footer,header,aside{display: block;}
+
+
 
 html,body {
 	height: 100%;
@@ -527,6 +537,11 @@ body {
 	.header__link {
 		font-size: 24px;
 	}
+	.header__link:hover {
+		font-size: 24px;
+		color: #fff;
+		border:none !important;
+	}
 }
 
 
@@ -538,6 +553,7 @@ body {
 	.header__link:hover {
 		border-bottom: 5px solid #fff;
 		padding-bottom: 26px;
+		color: #fff;
 	}
 
 
@@ -757,6 +773,8 @@ position: relative;
     max-width: 100%;
     justify-content: center;
     align-items: center;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
     
 }
 
@@ -925,7 +943,7 @@ position: relative;
 .icons_footer_social a:hover {
 	background-color: #fff;
 	color:#000;
-	font-size: 28px;
+	
 	transition: all 0.3s ease 0s;
 }
 
@@ -935,9 +953,67 @@ position: relative;
 	}
 }
 
+.footer {
+	background-color: #2f333c;
+	padding-top: 30px;
+	font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
 
+.footer .footcol p {
+	padding: 15px 0px;
+}
 
+.footcol {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
 
+@media (max-width: 767px){
+	.footcol {
+		flex-flow: column;
+	}
+}
+
+.footcol__item {
+	flex: 0 0 25%;
+	padding: 0px 15px;
+	color: #fff;
+	font-weight: 300;
+}
+
+.footcol__item p:first-child{
+	font-weight: 700;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.footend {
+	background-color: #181a1f;
+	margin-top: 20px;
+	padding: 20px 0px;
+	font-weight: 300;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    color: #9c9c9c;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+
+.log {
+	font-size: 26px;
+	font-weight: 700;
+}
+.log span {
+	color: red;
+}
 
 
 
