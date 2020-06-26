@@ -1066,6 +1066,7 @@ position: relative;
 .article{
 	    border-bottom: 2px solid #434f53;
 	    margin-bottom: 15px;
+	    padding: 0 15px;
 }
 .article h2 {
 	font-size: 20px;
@@ -1076,7 +1077,7 @@ position: relative;
 
 .article__date{
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	padding: 10px 0;
 	font-weight: 400;
     font-style: normal;
@@ -1086,8 +1087,8 @@ position: relative;
     line-height: 1;
     letter-spacing: 0px;
 }
-.adate, .auser {
-	flex: 0 0 50%;
+.acat {
+ padding-right: 15px;	
 }
 
 .bicon{
@@ -1105,6 +1106,8 @@ position: relative;
 
 .article__button{
     padding-bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
 	}
 
 	.article__button span {
@@ -1140,9 +1143,42 @@ position: relative;
 }
 
 
-/* БЛОГ **/
+/* БЛОГ ПОСТ**/
 
+.blogcontent {
+	display: flex;
+}
 
+.rbar {
+	flex:0 0 25%;
+	padding: 0px 15px;
+}
+
+.rbar__name{
+	padding-bottom: 25px;
+	display: flex;
+}
+
+.cats__item{
+	padding-bottom: 10px;
+    border-bottom:2px solid #2f333c;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cats {
+	padding-bottom: 25px;
+}
+
+@media (max-width: 767px){
+	.blogcontent, .article__date {
+		flex-flow: column;
+	}
+	.article__date div{
+		padding-bottom: 10px;
+	}
+}
 
 
 
