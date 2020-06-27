@@ -49,6 +49,24 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+.noborder{
+	border:none !important;
+}
+
+.redtext {
+	color: red;
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #fd3c3d;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0px;
+}
+.uptext {
+	text-transform: uppercase;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -63,7 +81,8 @@ p {
     color: #ffffff;
     font-size: 18px;
     line-height: 1.5;
-    letter-spacing: 0px
+    letter-spacing: 0px;
+    padding: 10px 0;
 }
 
 	h1 {
@@ -1040,12 +1059,17 @@ position: relative;
 .pt80 {
 	padding-top: 80px;
 }
+@media (max-width: 767px){
+	.pt80{
+		padding-top: 50px;
+	}
+}
 .breadcrumbs {
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 1.5;
     letter-spacing: 0px;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .breadcrumbs__item {
 	display: inline-flex;
@@ -1066,7 +1090,6 @@ position: relative;
 .article{
 	    border-bottom: 2px solid #434f53;
 	    margin-bottom: 15px;
-	    padding: 0 15px;
 }
 .article h2 {
 	font-size: 20px;
@@ -1074,20 +1097,18 @@ position: relative;
 	padding: 10px 0;
 }
 
+.article h1 {
+padding: 0;
+}
+
 
 .article__date{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	padding: 10px 0;
-	font-weight: 400;
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
-    color: #fd3c3d;
-    font-size: 14px;
-    line-height: 1;
-    letter-spacing: 0px;
+	
 }
-.acat {
+.adate {
  padding-right: 15px;	
 }
 
@@ -1127,10 +1148,19 @@ position: relative;
     background-color: #fff
 	}
 
-
+.article__name {
+	font-size: 22px;
+}
+.article__name  h1 {
+	text-align: left;
+}
 
 
 @media (max-width: 767px){
+
+	h1{
+		font-size: 20px;
+	}
 	h2 {
 		font-size: 18px !important;
 	}
@@ -1151,7 +1181,7 @@ position: relative;
 
 .rbar {
 	flex:0 0 25%;
-	padding: 0px 15px;
+	padding: 0px 20px;
 }
 
 .rbar__name{
@@ -1179,6 +1209,50 @@ position: relative;
 		padding-bottom: 10px;
 	}
 }
+
+
+.article__tags{
+	padding-bottom: 15px;
+	display: flex;
+
+}
+
+.article__tags span{
+	padding-top: 15px;
+}
+.tags__list{
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+}
+.tags__item a{
+	display: flex;
+	font-weight: 400;
+	color: #fff;
+	padding: 4px 10px;
+	border:1px solid #fff;
+	margin-right: 4px;
+	margin-top: 4px;
+}
+.tags__item a:hover{
+	background-color: #fd3c3d;
+	border:1px solid #fd3c3d;
+	 transition-duration: 0.8s;
+}
+.rbar__name h3{
+	color: #fff;
+	text-align: left;
+}
+.rbar__posts__name h2 {
+	font-size: 18px;
+	text-align: left;
+
+}
+.rbar__posts__item div{
+	padding: 10px 0;
+}
+
+
 
 
 
