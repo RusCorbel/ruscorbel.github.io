@@ -78,6 +78,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	padding-top: 30px !important;
 }
 
+.pb30 {
+	padding-bottom: 30px;
+}
+
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -172,6 +176,7 @@ p {
     border-color: #fd3c3d;
     padding: 16px 26px;
     text-transform: uppercase;
+     transition: all 0.8s ease;
 	}
 
 		.button span:hover {
@@ -250,6 +255,11 @@ p {
 		
 	}
 
+.featured__content__item h3, .prod__item h3 {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
 
 
 	@media (max-width: 767px){
@@ -610,6 +620,7 @@ p {
 	.header__social a {
 
 	color: #fff;
+	transition: all 0.7s ease;
 }
 
 .header__social li {
@@ -626,7 +637,7 @@ p {
 .icons_right_social a:hover {
 	color:#000;
 	
-	transition: all 0.3s ease 0s;
+	transition: all 0.7s ease;
 }
 
 .mb0 {
@@ -970,6 +981,7 @@ position: relative;
 	min-width: 70px;
 	min-height: 70px;
 	border-radius: 40px;
+	transition: all 0.7s ease;
 }
 
 .footer__social li {
@@ -978,6 +990,7 @@ position: relative;
 	font-size: 24px;
 	padding: 15px;
 
+
 }
 
 
@@ -985,7 +998,7 @@ position: relative;
 	background-color: #fff;
 	color:#000;
 	
-	transition: all 0.3s ease 0s;
+	transition: all 0.7s ease;
 }
 
 @media (max-width: 767px){
@@ -1269,6 +1282,56 @@ padding: 0;
 
 
 
+.prod__item {
+
+   padding: 15px 15px 30px 15px;  
+   min-width: 150px;
+   background-color: #ffffff;
+   flex: 1 1 30%;
+   margin: 5px;
+}
+
+.prod__content {
+	
+    padding: 15px 0px 0px 0px;   
+    transition-duration: 0.4s;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.prodcat__name{
+	padding-left: 5px;
+
+}
+.prodcat__name h2{
+		padding: 10px !important;
+	background-color: #fd3c3d;
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	font-weight: 700;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.9;
+    letter-spacing: 0px;
+}
+
+
+.prod__item img:hover{
+		opacity: 0.8;
+		transition: 0.7s all ease;
+		
+	}
+
+.prod__item img, .featured__content__item img {
+	transition: 0.7s all ease;
+}
 
 
 
