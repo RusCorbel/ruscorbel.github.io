@@ -1083,7 +1083,7 @@ position: relative;
     text-transform: uppercase;
 }
 .breadcrumbs__item {
-	display: inline-flex;
+	display: inline-block;
 }
 
 .delimeter {
@@ -1092,6 +1092,7 @@ position: relative;
     font-style: normal;
     font-weight: 700;
     color: #757575;
+    padding-right: 4px;
 }
 .active>a {
 	color: red;
@@ -1262,6 +1263,11 @@ padding: 0;
 .rbar__posts__item div{
 	padding: 10px 0;
 }
+
+
+/* SHOP */
+
+
 
 
 
