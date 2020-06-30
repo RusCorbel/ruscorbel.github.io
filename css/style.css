@@ -1333,8 +1333,62 @@ padding: 0;
 	transition: 0.7s all ease;
 }
 
+.prod__cats {
+	padding-bottom: 20px;
+}
+
+.prod__cats__list {
+		border-bottom: 2px solid #2f333c;
+}
+
+.prod__cats__item {
+	font: 300 20px/34px 'Lato', sans-serif;
+	list-style: circle;
+	display: block;
+	position: relative;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+.prod__cats__item a:before {
+content: '\f111';
+    font-family: 'FontAwesome';
+    font-size: 10px;
+    color: #fd3c3d;
+    position: absolute;
+    left: 0;
+    transition: .3s;
+    top: 0;
+}
 
 
+
+.price__filter  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25px;
+}
+
+.price__filter span {
+	padding: 0 5px;
+	color: #fff;
+}
+.price__filter input {
+	width: 45%;
+	height: 125%;
+}
+
+.price__filter__buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 0;
+}
+
+.apply__button, .clear__button {
+	padding: 0 5px;
+}
 
 
 /* Тест*
